@@ -1,0 +1,11 @@
+.git
+.gitignore
+**/.env
+**/venv
+**/__pycache__
+**/*.pyc
+**/db.sqlite3
+**/*.sql
+**/media
+**/*-report.txt
+project4-backup.tar.gz
