@@ -26,6 +26,9 @@ spec:
           envFrom:
             - secretRef:
                 name: django-env
+          env:
+            - name: DB_HOST
+              value: "127.0.0.1"
           resources:
             requests:
               cpu: 100m
