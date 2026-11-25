@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+venv/
+env/
+
+# Django
+*.log
+db.sqlite3
+media/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Security scan reports
+bandit-report.txt
+pip-audit-report.txt
+
+# Database backups
+*.sql
+*.tar.gz
+
+# IDE files
+.vscode/
+.idea/
